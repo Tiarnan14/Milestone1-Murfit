@@ -1,0 +1,12 @@
+
+
+.logo {
+    background: url("../images/murfit-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
