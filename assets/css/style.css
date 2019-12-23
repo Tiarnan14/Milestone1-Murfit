@@ -1,5 +1,10 @@
 
 
+header{
+    margin: 0;
+}
+
+
 .logo {
     background: url("../images/murfit-logo.jpg");
     background-repeat: no-repeat;
@@ -9,4 +14,13 @@
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.menuconatiner{
+    font-size: 0;
 }
