@@ -1,22 +1,9 @@
 
-
-header{
+.navbar-nav {
     margin: 0;
 }
 
-img
-
-.logo {
-    background: url("../images/murfit-logo.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    min-height: 100px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-.list-inline-item{
-    margin: 3px;
+p {
+    margin-bottom: 0;
+    padding: 0;
 }
