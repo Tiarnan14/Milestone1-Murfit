@@ -16,11 +16,6 @@ header{
     -webkit-transition: all .5s ease-in-out;
 }
 
-#nav li {
-    margin: 0;
-    padding: 0;
-}
-
-.menuconatiner{
-    font-size: 0;
+.list-inline-item{
+    margin: 3px;
 }
