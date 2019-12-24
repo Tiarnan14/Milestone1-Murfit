@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:100,200,300,400,500');
 
-.navbar-nav {
-    margin: 0;
+.logo{
+    background: url("../images/murfit-logo-2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 150px;
 }
 
-p {
-    margin-bottom: 0;
-    padding: 0;
+
+
+.navbar-text{
+    margin-top: 16px;
 }
