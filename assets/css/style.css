@@ -5,11 +5,37 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    min-height: 150px;
+    height: 150px;
+    width: 150px;
+    margin: 10px 50px 10px 10px;
 }
 
+ul li a {
+   font-family: 'Courier' , sans-serif;
+   font-size: 20px;
+   text-transform: uppercase;
+}
 
+.navbar-toggler{
+    margin-right: 25px;
+}
 
-.navbar-text{
-    margin-top: 16px;
+#tag-line-nav{
+    font-family: 'Courier' , sans-serif;
+    margin-top: 12px;
+    font-size: 20px;
+      font-family: 'Courier' , sans-serif;
+    
+   
+}
+#tag-line-nav a{
+ text-decoration: none;
+}
+
+#footer{
+     font-family: 'Courier' , sans-serif; 
+       font-family: 'Courier' , sans-serif;
+       text-align: center;
+       padding-top: 70px;
+       color: #EE8E2D;
 }
