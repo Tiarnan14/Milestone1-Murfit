@@ -24,7 +24,7 @@ ul li a {
     font-family: 'Courier' , sans-serif;
     margin-top: 12px;
     font-size: 20px;
-      font-family: 'Courier' , sans-serif;
+    text-align: right;
     
    
 }
@@ -32,8 +32,12 @@ ul li a {
  text-decoration: none;
 }
 
+#footer-tag {
+    margin-top: 40px;
+}
+
 #footer{
-     font-family: 'Courier' , sans-serif; 
-       font-family: 'Courier' , sans-serif;
-       text-align: center;
+    text-align: center;
+    margin-top: 60px;
+    padding: 0;
 }
