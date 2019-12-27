@@ -7,14 +7,21 @@
     background-repeat: no-repeat;
     height: 150px;
     width: 150px;
-    margin: 10px 50px 10px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
-ul li a {
+#navbar{
    font-family: 'Courier' , sans-serif;
    font-size: 20px;
-   text-transform: uppercase;
+   text-transform: uppercase; 
+   text-align: center;
 }
+
+#navbar a {
+    color: #EE8E2D;
+    text-decoration: none;
+}
+
 
 .navbar-toggler{
     margin-right: 25px;
@@ -28,16 +35,31 @@ ul li a {
     
    
 }
-#tag-line-nav a{
+#tag-line-nav a {
  text-decoration: none;
-}
-
-#footer-tag {
-    margin-top: 40px;
+ color: #EE8E2D;
 }
 
 #footer{
     text-align: center;
     margin-top: 60px;
     padding: 0;
+}
+
+#footer a {
+    color: #EE8E2D;
+}
+
+#tag-line-footer{
+    font-family: 'Courier' , sans-serif;
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: right;
+    
+   
+}
+#tag-line-footer a {
+ text-decoration: none;
+  margin-top: 40px;
+  color: #EE8E2D;
 }
