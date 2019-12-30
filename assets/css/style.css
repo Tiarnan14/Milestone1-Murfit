@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Courier+Prime:100,200,300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime:100,200,300,400,500 | Oswald:100,200,300,400,500');
 
-
+body{
+    padding: 0;
+    margin: 0;
+}
 /*--------------Logo-----------------------------------*/
 
 .logo{
@@ -8,12 +11,19 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 150px;
+    height: 100px;
     width: 150px;
     margin: 10px 10px 10px 10px;
 }
 
 /*--------------NavBar-----------------------------------*/
+
+.navbar-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 #navbar{
    font-family: 'Courier' , sans-serif;
@@ -21,15 +31,28 @@
    text-transform: uppercase; 
    text-align: center;
     margin-top: 12px;
+    color: #EE8E2D;
 }
 
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    background-color: #ee8e2d;
+}
+
+
 #navbar a {
-    color: #EE8E2D;
+    color: #ffffff;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .navbar-toggler{
-    margin-right: 25px;
+    margin-right: 20px;   
+}
+
+.navbar-toggler-icon{
+      background-color: #EE8E2D;
 }
 
 #navbarNavDropdown{
@@ -75,8 +98,38 @@
   color: #EE8E2D;
 }
 
-/*--------------Landing Page-----------------------------------*/
+/*--------------Home Page-----------------------------------*/
+.home-conatainer{
+    height: 100vh;
+    width: 100%;
+    background: url("../images/murfit-home-3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.jumbotron{
+    background-color: transparent !important ;
+}
+
+.jumbotron span {
+    color: #EE8E2D;
+}
+
+#button{
+    text-transform: uppercase;
+}
+#button:hover{
+    color: #000000;
+    
+}
 
 /*--------------Murfit Page-----------------------------------*/
 
@@ -101,4 +154,15 @@
 #sub-heading-image{
     height: 100%;
     width: 100%;
+}
+
+.jumbotron-header{
+    font-family: 'Oswald' , sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#home-tag-line{
+    font-family: 'Courier' , sans-serif;
+    color: #ffffff;
 }
