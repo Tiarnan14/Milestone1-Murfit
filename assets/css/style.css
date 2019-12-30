@@ -21,7 +21,6 @@
    text-transform: uppercase; 
    text-align: center;
     margin-top: 12px;
-    font-size: 30px;
 }
 
 #navbar a {
@@ -74,4 +73,32 @@
   margin-top: 55px;
   padding-right: 5px;
   color: #EE8E2D;
+}
+
+/*--------------Landing Page-----------------------------------*/
+
+
+/*--------------Murfit Page-----------------------------------*/
+
+
+/*--------------Contact Page-----------------------------------*/
+
+
+
+/*--------------Headings-----------------------------------*/
+
+#page-headings{
+    text-transform: uppercase;
+    font-family: 'Courier' , sans-serif;
+    text-align: center;
+    color: #EE8E2D;
+}
+
+#sub-heading {
+    text-transform: uppercase;
+}
+
+#sub-heading-image{
+    height: 100%;
+    width: 100%;
 }
