@@ -4,17 +4,6 @@ body{
     padding: 0;
     margin: 0;
 }
-/*--------------Logo-----------------------------------*/
-
-.logo{
-    background: url("../images/murfit-logo-2.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100px;
-    width: 150px;
-    margin: 10px 10px 10px 10px;
-}
 
 /*--------------NavBar-----------------------------------*/
 
@@ -25,7 +14,7 @@ body{
     background-color: rgb(14, 14, 14);
 }
 
-#navbar{
+#navbar-title{
    font-family: 'Courier' , sans-serif;
    font-size: 28px;
    text-transform: uppercase; 
@@ -40,8 +29,14 @@ body{
     background-color: #ee8e2d;
 }
 
+#navbar-list {
+    text-align: center;
+    margin-top: 12px;
+}
 
-#navbar a {
+#navbar-list a {
+    font-family: 'Courier' , sans-serif;
+    text-transform: uppercase; 
     color: #ffffff;
     text-decoration: none;
     font-size: 15px;
@@ -99,6 +94,7 @@ body{
 }
 
 /*--------------Home Page-----------------------------------*/
+
 .home-conatainer{
     height: 100vh;
     width: 100%;
@@ -128,7 +124,17 @@ body{
 }
 #button:hover{
     color: #000000;
-    
+}
+
+.jumbotron-header{
+    font-family: 'Oswald' , sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#home-tag-line{
+    font-family: 'Courier' , sans-serif;
+    color: #ffffff;
 }
 
 /*--------------Murfit Page-----------------------------------*/
@@ -177,13 +183,3 @@ body{
     width: 100%;
 }
 
-.jumbotron-header{
-    font-family: 'Oswald' , sans-serif;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-#home-tag-line{
-    font-family: 'Courier' , sans-serif;
-    color: #ffffff;
-}
