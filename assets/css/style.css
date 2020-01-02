@@ -69,12 +69,16 @@ body{
 /*--------------Footer-----------------------------------*/
 
 #footer{
+    background-color: #000000;
+}
+
+#social-footer{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
     padding: 0;
 }
 
-#footer a {
+#social-footer a {
     color: #EE8E2D;
 }
 
@@ -82,15 +86,24 @@ body{
     font-family: 'Courier' , sans-serif;
     margin-top: 12px;
     font-size: 20px;
-    text-align: right;
+    text-align: center;
     
    
 }
 #tag-line-footer a {
  text-decoration: none;
-  margin-top: 55px;
+  margin-top: 27px;
   padding-right: 5px;
   color: #EE8E2D;
+}
+
+#footer-title{
+    margin-top: 27px;
+    color: #ee8e2d;
+    font-family:  'Courier' , sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    text-align: center;
 }
 
 /*--------------Home Page-----------------------------------*/
@@ -159,6 +172,30 @@ body{
 .contact-header-container {
     background-color: rgb(14, 14, 14);
 }
+
+.contact-container{
+    height: 100vh;
+    width: 100%;
+    background: url("../images/murfit-contact-bg-image.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+form {
+    font-family:'Courier' , sans-serif;
+    margin: 100px 25px;
+}
+
+.form-group label {
+   font-size: 20px;
+   color: #ee8e2d;
+   font-weight: 100;
+}
+
+
+
 
 
 /*--------------Headings-----------------------------------*/

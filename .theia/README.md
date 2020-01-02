@@ -18,3 +18,7 @@ Photo by Scott Webb on Unsplash
 Photo by Meghan Holmes on Unsplash
 
 Photo by bruce mars on Unsplash
+
+Photo by Jonathan Borba on Unsplash
+
+Photo by Luis Quintero on Unsplash
