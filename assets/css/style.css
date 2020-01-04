@@ -134,6 +134,7 @@ body{
 
 #button{
     text-transform: uppercase;
+    font-family: 'Courier' , sans-serif;
 }
 #button:hover{
     color: #000000;
@@ -192,7 +193,7 @@ form {
    font-size: 20px;
    color: #ee8e2d;
    font-weight: 100;
-}
+   }
 
 
 
