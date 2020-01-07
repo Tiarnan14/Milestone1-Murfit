@@ -151,6 +151,21 @@ body{
     color: #ffffff;
 }
 
+/*--------------Home Page-----------------------------------*/
+
+.my-journey-header-container{
+    background-color: rgb(14, 14, 14);
+}
+
+#journey-block{
+    padding: 0;
+}
+
+#journey-block p {
+    font-family: 'Courier' , sans-serif;
+    padding: 30px 5px 10px 5px;
+}
+
 /*--------------Murfit Page-----------------------------------*/
 
 .murfit-header-container {
