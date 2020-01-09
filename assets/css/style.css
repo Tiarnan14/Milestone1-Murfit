@@ -74,7 +74,8 @@ body{
 
 #social-footer{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     padding: 0;
 }
 
@@ -105,6 +106,8 @@ body{
     padding-left: 5px;
     text-align: center;
 }
+
+
 
 /*--------------Home Page-----------------------------------*/
 
@@ -151,7 +154,7 @@ body{
     color: #ffffff;
 }
 
-/*--------------Home Page-----------------------------------*/
+/*--------------My Journey-----------------------------------*/
 
 .my-journey-header-container{
     background-color: rgb(14, 14, 14);
@@ -163,7 +166,7 @@ body{
 
 #journey-block p {
     font-family: 'Courier' , sans-serif;
-    padding: 30px 5px 10px 5px;
+    padding: 30px 15px 10px 15px;
 }
 
 /*--------------Murfit Page-----------------------------------*/
@@ -172,8 +175,12 @@ body{
     background-color: rgb(14, 14, 14);
 }
 
+.murfit-block-image{
+    padding: 0 ! important;
+}
+
 #murfit-block{
-    padding: 0;
+    padding: 15px;
 }
 
 #murfit-block p {
@@ -216,7 +223,7 @@ form {
 }
 
 .btn{
-    background-color: #ee8e2d ! important;
+    background-color: #ee8e2d! important;
 }
 
 .btn span {
@@ -225,12 +232,15 @@ form {
 }
 
 .btn:hover{
-    color: #000000;
+    color: #ee8e2d;
 }
 
 #contact-button{
     margin-top: 40px;
+    background-color: #000000 ! important;
 }
+
+
 
 /*--------------Headings-----------------------------------*/
 
