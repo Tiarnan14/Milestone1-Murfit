@@ -12,8 +12,8 @@ This is a website for a fitness personal trainer. It showcases who the personal 
 UX:
 
 The website is aimed at those interested in the fitness industry or want to get involved but haven’t made that step yet.
-The websites purpose is to get those users that are interested to sign up to the Murfit gym.
-The design is aimed at making those users who are taking their first steps into the fitness industry feel comfortable by showcasing how simple it is to just get moving.
+The websites purpose is to get those users that are interested to make fitness a purpose in their life to sign up to the Murfit gym.
+The design is aimed at making those users who are taking their first steps into the fitness industry feel comfortable by showcasing how simple it is to just get moving. it also aimed at motivating the user with simple stories of the gym owners own experiences. Images are used to show that its for all women, not a certain type 
 The colours are consistent with the Murfit gym, using black and orange helps it to really stand out and engage the user.
 
 
